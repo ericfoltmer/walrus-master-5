@@ -1,9 +1,9 @@
-$ ls
+ls
 Procfile  requirements.txt  web.py
 
-$ heroku create --buildpack heroku/python
+heroku create --buildpack heroku/python
 
-$ git push heroku master
+git push heroku master
 ...
 -----> Python app detected
 -----> Installing python-2.7.12
